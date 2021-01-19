@@ -1,0 +1,127 @@
+/*h1 (header) property*/
+h1 { 
+  display: block;
+  font-size: 3.25em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-shadow: 3px 3px red;
+}
+/*h2 (page title) property*/
+h2 { 
+  display: block;
+  font-size: 2.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: tomato;
+  text-shadow: 2px 2px yellow;
+}
+/*h3 (pic label) property*/
+h3 { 
+  display: block;
+  font-size: 1.25em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+/*h4 (footer) property*/
+h4 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+p { 
+  display: block;
+  font-size: 1.15em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 30%;
+  margin-right: 30%;
+  color:white;
+}
+
+ul { 
+  display: block;
+  font-size: 1.15em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}
+
+/*This is the button properties*/
+.btn {
+		border: none;
+		background-color: inherit;
+		padding: 14px 28px;
+		font-size: 20px;
+		cursor: pointer;
+		display: inline-block;
+		}
+
+		.btn:hover {background: #ffff66;}
+
+		.utama {color: #66ff33;}
+		.durian {color: yellow;}
+		.rambutan {color: red;}
+		.mangga {color: orange;}
+		.jambu {color: blue;}
+		
+		.flex-parent {
+		 display: flex;
+		}
+		
+		.jc-center {
+		 justify-content: center;
+		}
+		
+		button.margin-right {
+			margin-right: 20px;
+		}
+
+/*top horizontal line*/
+hr.new1{
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8c8c inset;
+
+}
+
+/*pic flexbox*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.child > img {
+    align-items: vertical-align;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    overflow: hidden;
+}
+  
+.parent:before {
+    content: "";
+    width:100%;
+    order: 1;
+}
+  
+.child:nth-child(n + 5) {
+    order: 2;
+}
